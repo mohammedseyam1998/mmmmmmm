@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+header{
+    background-color: #21535a;
+    padding: 15px;
+    border-bottom: 2px solid #fff;
+ 
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.logo{
+float: left;
+color: #fff;
+font-size: 20px;
+font-weight: bold;
+}
+.logo h1 span{
+    color: #0f848d;
+}
+.links{
+    float: right;
+    margin-top: 15px;
+}
+.links ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.links ul li a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 16px;
+   transition: all 0.5s ease;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -ms-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+}
+.links ul li a:hover{
+    color: #0f848d;
+}
+.main_banner img{
+    width: 100%;
+}
+.myteam {
+    margin: 30px 0;
+    text-align: center;
+}
+.myteam h2{
+    color: #0f848d;
+    margin-bottom: 20px;
+}
+.person{
+   margin: 20px 0;
+   width: 33.33333%;
+   float: left;
+   padding: 30px;
+   border-radius: 15px;
+   transition: all 0.5s ease;
+   -webkit-transition: all 0.5s ease;
+   -moz-transition: all 0.5s ease;
+   -ms-transition: all 0.5s ease;
+   -o-transition: all 0.5s ease;
+}
+.person:hover{
+    box-shadow: 0px 1px 5px 5px #cac6c6;
+}
+.person:hover img{
+   transform: rotate(360deg);
+   -webkit-transform: rotate(360deg);
+   -moz-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   -o-transform: rotate(360deg);
+}
+.person img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+.person h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.person p{
+    margin-bottom: 15px;
+}
+.person i{
+    font-size: 25px;
+    margin: 0 5px;
+
+}
+footer{
+    background-color: #21535a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+footer span{
+    color: #0f848d ;
+}
